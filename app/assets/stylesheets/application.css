@@ -1,15 +1,53 @@
-/*
- * This is a manifest file that'll be compiled into application.css, which will include all the files
- * listed below.
- *
- * Any CSS (and SCSS, if configured) file within this directory, lib/assets/stylesheets, or any plugin's
- * vendor/assets/stylesheets directory can be referenced here using a relative path.
- *
- * You're free to add application-wide styles to this file and they'll appear at the bottom of the
- * compiled file so the styles you add here take precedence over styles defined in any other CSS
- * files in this directory. Styles in this file should be added after the last require_* statement.
- * It is generally better to create a new file per style scope.
- *
- *= require_tree .
- *= require_self
- */
+.ask-page {
+  margin: 0 16px;
+ }
+
+h1 {
+  text-align: center; /* Centers the text horizontally */
+  margin-bottom: 20px; /* Adds space between the h1 and the form */
+}
+
+form {
+  width: 400px; /* Adjust the width of the form */
+  padding: 20px; /* Add padding inside the form */
+  margin: 0 auto; /* Center the form horizontally */
+  border: 1px solid #ccc; /* Optional: Add a border */
+  border-radius: 8px; /* Optional: Add rounded corners */
+}
+
+input[type="text"], input[type="submit"], button {
+  display: inline-block; /* Makes each element take up its own line */
+  margin: 10px 0; /* Adds space between elements */
+  text-align: left; /* Aligns text inside the input/button to the left */
+}
+
+ .submit-button {
+  color: white;
+  font-size: 18px; /* Make the text larger */
+  padding: 10px 20px; /* Add padding inside the button */
+  width: 95%; /* Make the button take the full width of the form */
+  height: 50px; /* Adjust the height of the button */
+  background-color: #007bff; /* Button background color */
+  color: white; /* Button text color */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Optional: Add rounded corners */
+  cursor: pointer; /* Change cursor to pointer on hover */
+ }
+
+ .coach-answer {
+    text-align: center;
+ }
+
+.coach {
+  background-color: #FEFEE1;
+}
+
+ .you, .coach {
+  font-size: 20px;
+  border-left: #DDDDDD solid 4px; /* Adds the left border */
+  padding-left: 20px; /* Adds space between the border and the text */
+  margin: 20px auto; /* Adds spacing between the elements and centers them */
+  display: block; /* Ensures the elements stack vertically */
+  text-align: left; /* Aligns the text inside the element to the left */
+  width: 20%; /* Centers the elements by setting a fixed width */
+}
